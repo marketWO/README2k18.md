@@ -1,39 +1,31 @@
-
-a         {text-decoration: none}
-a:link    {color: green}
-a:visited {color: navy}
-a:active  {color: black}
-a:hover   {color: red; text-decoration: underline}
-
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>O chytrém ševci a hloupém čertovi</title>
   <meta charset="utf-8">
   <style>
-     h1 { color: red;
-		font-size: 4em;
+     h1 { color: blue;
+		font-size: 3em;
 		text-decoration: underline;
-		font: arial;
-		text-align: center
+		font: Verdana, arial;
+		font-style: italic;
+		text-align: left;
 		
 		  }
 	body  { background-color: white;
 			  font-size: 17px;
-			  font-weight: bold;
+			  font-weight: normal;
 			  line-height: 2em;
-		  		font-style: oblique;
+		  		font-style: normal;
 			  text-align: justify;
-			font-family: sans-serif;
-		font: arial;
-		padding: 20px;
+			  font-family: Verdana, Arial, Helvetica;
+		  	padding: 30px;
 
 		}	
 	  
-.zanr, .autor, .zdroj {text-align: right;
+.zanr, .autor, .zdroj {	text-align: left;
+			font-size: 14px;
+			font-style: italic;
 	}
 
 .autor, .zdroj {margin-top: inherit;
@@ -44,20 +36,24 @@ h2 {font-size: 2em;
 	
 }
 i {font-style: italic;
-	color: darkslategrey;
+	
 	}
 blockquote {color: darkred;
+text-transform: uppercase;
 	
 }
-li {border: dashed black 2px;
+li {border: none;
 		}  
-div {background-image: url(http://www.auto-samolepky.cz/images/_102006.jpg);
+div {background-image: url(https://www.alkim.de/images/product_images/info_images/Teufel-125_0.jpg); float: none;
 background-repeat: no-repeat;
-	background-position: right 32%;
-float: none;
+background-position: right 5%;
+margin: 10px; padding: 20px;
+
+border-width: 1px; border-style: solid; border-color: blue; 
 }
 footer {font-size: 2em;
-	text-align: center;
+	font-weight: bold;
+	text-align: left;
 }
   </style>
 
